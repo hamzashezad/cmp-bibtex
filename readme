@@ -1,0 +1,11 @@
+BibTex completion source for nvim-cmp
+
+requires a refs.bib to be available in the directory
+
+to use add to the nvim-cmp sources:
+
+require("cmp").setup({
+	sources = {
+		{ name = "bibtex" }
+	}
+})
